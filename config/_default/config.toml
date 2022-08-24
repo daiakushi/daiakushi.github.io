@@ -11,13 +11,13 @@ pygmentsUseClasses = true
   description = "Yet another blog"
   github = "daiakushi"
   url = 'https://daiakushi.github.io'
-  keywords = "blog, misc"
+  keywords = "coding, programming, blog"
   rss = true
   lastmod = true
   avatar = "/images/RobotCat.png"
   favicon = "/images/RobotCat.png"
   location = 'Taipei'
-  userStatusEmoji = "😀"
+  userStatusEmoji = "🤡"
   enableGitalk = false
 
   [[params.links]]
