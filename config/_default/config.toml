@@ -1,0 +1,29 @@
+baseURL = 'https://daiakushi.github.io'
+languageCode = "zh-tw"
+title = "What a blog"
+theme = "github-style"
+# googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = 'daiakushi'
+  description = "Yet another blog"
+  github = "daiakushi"
+  url = 'https://daiakushi.github.io'
+  keywords = "blog, misc"
+  rss = true
+  lastmod = true
+  avatar = "/images/RobotCat.png"
+  favicon = "/images/RobotCat.png"
+  location = 'Taipei'
+  userStatusEmoji = "😀"
+  enableGitalk = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://daiakushi.github.io"
+    icon = "/images/RobotCat.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
